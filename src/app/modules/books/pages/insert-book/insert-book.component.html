@@ -1,0 +1,12 @@
+
+<div>
+    {{ resolverText }}
+</div>
+
+<div>
+    <input text="" [(ngModel)]="text" (input)="onTextChanged()" />
+</div>  
+
+<div>
+    <button (click)="onSaveClicked()">Save</button>
+</div>
