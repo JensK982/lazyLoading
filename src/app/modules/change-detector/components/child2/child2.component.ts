@@ -4,8 +4,6 @@ import { Child1Component } from '../child1/child1.component';
 
 @Component({
   selector: 'chd-child2',
-  standalone: true,
-  imports: [],
   templateUrl: './child2.component.html',
   styleUrl: './child2.component.css',
 })

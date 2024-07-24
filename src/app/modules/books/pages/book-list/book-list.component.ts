@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 
-import { bookmodel } from './Model/book.model';
-import { isbnValidator } from './Validator/book.Validator';
+import { bookmodel } from './../../Model/book.model';
+import { isbnValidator } from './../../Validator/book.Validator';
 
 @Component({
   selector: 'app-book-list',

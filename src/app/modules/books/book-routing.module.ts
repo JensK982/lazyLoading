@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { BookListComponent } from './book-list.component';
+import { BookListComponent } from './pages/book-list/book-list.component';
 
 const routes: Routes = [{ path: '', component: BookListComponent }];
 
@@ -9,4 +9,4 @@ const routes: Routes = [{ path: '', component: BookListComponent }];
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class BookListRoutingModule {}
+export class BooksRoutingModule {}

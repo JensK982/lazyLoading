@@ -3,10 +3,10 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { UserListRoutingModule } from './user-list-routing.module';
-import { userlistComponent } from './user-list.component';
+import { UserListComponent } from './user-list.component';
 
 @NgModule({
-  declarations: [userlistComponent],
+  declarations: [UserListComponent],
   imports: [
     CommonModule,
     FormsModule,

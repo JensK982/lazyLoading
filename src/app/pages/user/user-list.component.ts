@@ -7,7 +7,7 @@ import { User } from './Model/user-list.model';
   templateUrl: './user-list.component.html',
   styleUrl: './user-list.component.css',
 })
-export class userlistComponent {
+export class UserListComponent {
   title = 'OopUserModul';
   user: User = new User();
   errorMessagesLname: string = 'Last Name is required';
